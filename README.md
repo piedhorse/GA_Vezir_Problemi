@@ -5,6 +5,7 @@ Tabu arama algoritması, karmaşık optimizasyon problemlerini çözmek için ku
 Bu algoritma, adımlarını Tabu Listesi olarak adlandırılan bir dizi engelleme kuralı ile belirler. Tabu Listesi, mevcut çözümü değiştirmeye yönelik kısıtlamalar getirerek, daha önce denenmiş fakat daha kötü çözümlere geri dönüşü engeller. Bu sayede, arama alanında daha etkili bir keşif yaparak optimum çözüme daha hızlı ulaşabilir.
 
 Bu dokümanda, bir vezir problemi örneği üzerinde, genetik algoritma ile tabu arama algoritmasının nasıl kullanılabileceğine dair bir örnek sunulacaktır. Aşağıdaki adımlar takip edilecektir:
+![WhatsApp Görsel 2023-03-29 saat 22 14 09](https://user-images.githubusercontent.com/96746943/229240834-87368b77-df9a-45d8-a388-ee673c122a55.jpg)
 
 1. Problemin tanımı ve kısıtları:
     - Bir 8x8 satranç tahtası üzerinde, 8 vezirin yerleştirilmesi gerekmektedir.
@@ -183,7 +184,8 @@ Bu dokümanda, bir vezir problemi örneği üzerinde, genetik algoritma ile tabu
     }
     ```
 
-    
+    ![20230401_005702](https://user-images.githubusercontent.com/96746943/229240878-42810cd8-323f-4f04-831b-3367a2566b9b.gif)
+
     
     Bu program, genetik algoritma kullanarak 8-vezir problemini çözer. Program, rastgele başlayan bir popülasyon yaratır ve popülasyondaki her bir bireyin uygunluğunu hesaplar. Uygunluğu hesaplamak, her bir vezirin diğer vezirlerle çakışıp çakışmadığını kontrol etmek için yapılır. Daha sonra, seçilim, çaprazlama ve mutasyon işlemleri uygulanır. Bu işlemlerin ardından, yeni bir popülasyon oluşturulur ve işlem birkaç kez tekrarlanır. Sonuçta, en uygun bireyin değeri çıktı olarak verilir.
     
