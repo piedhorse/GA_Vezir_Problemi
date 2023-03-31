@@ -5,6 +5,8 @@ Tabu arama algoritması, karmaşık optimizasyon problemlerini çözmek için ku
 Bu algoritma, adımlarını Tabu Listesi olarak adlandırılan bir dizi engelleme kuralı ile belirler. Tabu Listesi, mevcut çözümü değiştirmeye yönelik kısıtlamalar getirerek, daha önce denenmiş fakat daha kötü çözümlere geri dönüşü engeller. Bu sayede, arama alanında daha etkili bir keşif yaparak optimum çözüme daha hızlı ulaşabilir.
 
 Bu dokümanda, bir vezir problemi örneği üzerinde, genetik algoritma ile tabu arama algoritmasının nasıl kullanılabileceğine dair bir örnek sunulacaktır. Aşağıdaki adımlar takip edilecektir:
+<br/>
+
 ![WhatsApp Görsel 2023-03-29 saat 22 14 09](https://user-images.githubusercontent.com/96746943/229240834-87368b77-df9a-45d8-a388-ee673c122a55.jpg)
 
 1. Problemin tanımı ve kısıtları:
